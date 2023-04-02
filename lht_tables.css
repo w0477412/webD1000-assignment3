@@ -65,12 +65,25 @@ table{
    background-position: bottom right;
    background-size: 40%;
    border: 6px;
-   border: double;
+   border-style: double;
    border-color: rgb(154,64,3);
    border-collapse: collapse;
    margin-top: 20px;
    margin-bottom: 20px;
    margin-left: auto;
    margin-right: auto;
+   table-layout: fixed;
+   width: 85%;
+}
+td, th{
+   border: 1px;
+   border-color: gray;
+   border-style: solid;
+   font-size: 0.85em;
+   font-weight: normal;
+   padding: 5px;
+   text-align:top;
+   width: 14.28%;
+   word-wrap: break-word; 
 }
 }
