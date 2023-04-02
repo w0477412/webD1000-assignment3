@@ -85,6 +85,7 @@ td, th{
    text-align:top;
    width: 14.28%;
    word-wrap: break-word; 
+   vertical-align: top;
 }
 td{
    background-color: rgba(171,171,171,0.6); /*semi transparent background*/
